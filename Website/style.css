@@ -1,0 +1,196 @@
+@font-face {
+    font-family: comfortaa, apple, queen;
+    src: url(../ressources/Fonts/Comfortaa-Light.ttf);
+    src: url(../ressources/Fonts/AppleGaramond-Italic.ttf);
+    src: url(../ressources/Fonts/QueenInlineGrunge.ttf);
+}
+@font-face{
+    font-family: xmas;
+    src: url(../ressources/Fonts/ChristmasWish-Calligraphy.otf) format("opentype");
+}
+body {
+    background-color: #dddcd6;
+}
+#title::first-line {
+    font-family: "xmas";
+    font-size: 1.5em;
+    letter-spacing: 9px;
+    color: #dddcd6;
+}
+#title {
+    width: 100%;
+    color: rgba(250, 118, 118, 0.966);
+    font-family: "apple";
+    font-size: 9em;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+h3{
+    font-family: "comfortaa";
+    font-size: 8em;
+    color: rgba(219, 112, 112, 0.911);
+}
+#legende{
+    font-family: "apple";
+    font-size: 1.7em;
+    font-style: italic;
+    color: #f3d6ad;
+    text-shadow: 0px 0px 11px rgb(0, 0, 0);
+}
+#headaRow {
+    width: 100%;
+}
+.heada {
+    background-image: url("../ressources/Cuisine.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: rgba(70, 64, 64, 0.637);
+    border-style: solid;
+    box-shadow: rgba(70, 64, 64, 0.637) ;
+    width: 100%;
+    padding-top: 5%;
+    position:right;
+}
+#headaMenu {
+    padding-top: 2%;
+    background-color: rgba(0, 0, 0, 0.603);
+}
+#headaMenuIcon {
+    width: 100%;
+    text-align:center;
+}
+#headaMenuIcon2 {
+    width: 100%;
+    text-align: left;
+}
+#headaMenuTitle {
+    width: 100;
+    color: rgb(255, 255, 255);
+    font-size: 2.3em;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 3px 0 #000000, 1px 13px 5px #aba8a8, 1px 2px 11px #000000;
+}
+#headaMenuTitle2 {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 2.3em;
+    font-weight: bolder;
+    text-shadow: 1px 3px 0 #000000, 1px 13px 5px #aba8a8, 1px 2px 11px #000000;
+}
+h2 {
+    color: rgba(219, 112, 112, 0.911);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2%;
+    font-family: xmas;
+    font-size: 6em;
+    font-weight: lighter;}
+#aboutUs {
+    padding-bottom: 2.4em;
+}
+#profilPicture {
+    max-height: 25em;
+    transform: rotateZ(25deg);
+    -webkit-box-shadow: 3px 7px 73px -21px rgba(0,0,0,1);
+    -moz-box-shadow: 3px 7px 73px -21px rgba(0,0,0,1);
+    box-shadow: 3px 7px 73px -21px rgba(0,0,0,1);
+}
+#description {
+    font-family: "apple";
+    font-style: italic;
+    line-height: 1.6em;
+    font-size: 1.4em;
+    color: #b5b4af;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+#photos {
+    -webkit-box-shadow: 2px 4px 21px 13px rgba(230,230,230,1);
+    -moz-box-shadow: 2px 4px 21px 13px rgba(230,230,230,1);
+    box-shadow: 2px 4px 21px 13px rgba(0, 0, 0, 0.185);
+    margin-top: 1%;
+    line-height: 0;
+    -webkit-column-count:5;
+    -webkit-column-gap:0px;
+    -moz-column-count:5;
+    -moz-column-gap:0px;
+    column-count:5;
+    column-gap:0px;
+}
+#photos img {
+    width: 100% !important;
+    height: auto !important;
+}
+.carousel-item{
+    height: 70vh;
+}
+#welcomeImg{
+    position: bottom;
+}
+.arrow {
+    font-size: 5em;
+}
+#realisationTitle {
+    padding-top: 4%;
+    color: rgb(212, 77, 77);
+    font-size: 4em;
+}
+#contactUs {
+    color: rgb(212, 77, 77);
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-family: xmas;
+    font-size: 7em;
+    font-weight: lighter;
+    text-align: center;
+}
+#contactUsPhone {
+    font-size: 2em;
+    text-align: center;
+    font-family: "queen";
+    font-weight: lighter;
+}
+#contactUsMail {
+    font-size: 2em;
+    text-align: center;
+    font-family: "queen";
+    font-weight: lighter;
+}
+#contactUs .col {
+    padding: 9em;
+}
+#formAndMap {
+    background-color:#dddcd6;
+    -webkit-box-shadow: 2px 4px 21px 13px rgba(230,230,230,1);
+    -moz-box-shadow: 2px 4px 21px 13px rgba(230,230,230,1);
+    box-shadow: 2px 4px 21px 13px rgba(0, 0, 0, 0.048);
+}
+.formText{
+    font-family: "queen";
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+#button {
+    border:rgb(212, 77, 77);
+    background-color:rgb(212, 77, 77);
+    font-size: 1.3em;
+    float: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#mapDesign{
+    -webkit-box-shadow: 2px 4px 21px 13px rgba(230,230,230,1);
+    -moz-box-shadow: 2px 4px 21px 13px rgba(230,230,230,1);
+    box-shadow: 2px 4px 21px 13px rgba(0, 0, 0, 0.048);
+}
+footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../ressources/DECOR-SURFACE-Chantier-Peinture-visu01_2273e5c848475eada0fd6d505bf11b615e32df9a.jpeg);
+}
